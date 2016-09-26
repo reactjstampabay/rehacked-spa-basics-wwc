@@ -9,6 +9,8 @@ Since its inception, one of the primary criticisms of React has been the complex
 
 Thanks to the `create-react-app` scaffolder by Facebook, beginners to the React ecosystem can get going extremely quickly without the upfront investment of knowledge in these tools.
 
+This lab will utilize `create-react-app`, scaffold a React SPA, go over some React basics, setup rudimentary routing using `react-router`, and then finally deploy a sample React SPA to a Firebase CDN.
+
 ## Preqrequisites
 
 1. Signup for a [GitHub](https://github.com) account
