@@ -3,21 +3,56 @@
 # ReHacked (October 11, 2016): SPA Basics @ Women Who Code Tampa
 ### By [ReactJS Tampa Bay](http://www.meetup.com/ReactJS-Tampa-Bay/)
 
-## Introduction
 
-Since its inception, one of the primary criticisms of React has been the complexity of build systems.  On top of adopting ES2015 syntax and transpiling with Babel, developers also had to acclimate themselves with Webpack.
+# Goals
 
-Thanks to the `create-react-app` scaffolder by Facebook, beginners to the React ecosystem can get going extremely quickly without the upfront investment of knowledge in these tools.
+1. Scaffold a `create-react-app` application
+1. Understand how `create-react-app` treats JavaScript, dependencies, CSS, and assets
+1. Establish a folder structure and refactor App.js
 
-This lab will utilize `create-react-app`, scaffold a React SPA, go over some React basics, setup rudimentary routing using `react-router`, and then finally deploy a sample React SPA to a Firebase CDN.
+# ReHacked
 
-## Preqrequisites
+## Goal 1: Scaffold a `create-react-app` application
 
-1. Signup for a [GitHub](https://github.com) account
-1. Install [git](https://git-scm.com/downloads)
-1. Install [Node Version Manager](https://github.com/creationix/nvm) ([Windows NVM](https://github.com/coreybutler/nvm-windows))
-1. In a shell, install the latest version of Node by running `nvm install stable` (macOS/Linux) or `nvm install latest`
-1. In a shell, install `create-react-app` by running `npm install -g create-react-app`
-1. Fork `https://github.com/reactjstampabay/rehacked-spa-basics-wwc` to your personal GitHub
-1. In a shell, execute `git clone https://github.com/[your GH username]/rehacked-spa-basics-wwc.git`
-1. In a shell, execute `git checkout initial`
+### Explanation
+
+* 
+
+### Instructions
+
+In the root of this repo, run a shell and execute the following commands
+
+1. `create-react-app ./`
+1. `mv README.md README.facebook.md`
+1. `mv README.old.md README.md`
+
+## Goal 2: Understand how `create-react-app` treats JavaScript, dependencies, CSS, and assets
+
+### Explanation
+
+* 
+
+### Instructions
+
+1.
+
+## Goal 3: Establish a folder structure and refactor App.js
+
+### Explanation
+
+![This is not Nam](https://cdn.meme.am/instances/66620351.jpg)
+
+* 
+
+### Instructions
+
+1.
+
+# Summary
+
+In this section, we have accomplished the following:
+
+*
+
+
+[Back to Initial](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/initial) || [Continue to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-2)
