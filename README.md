@@ -74,7 +74,17 @@ In the root of this repo, run a shell and execute the following commands
 1. Execute `mkdir services`
 1. Your folder structure should now resemble the following:
 
-
+- src
+  - common
+    - services
+  - components
+  - containers
+  - App.js
+  - App.test.js
+  - App.css
+  - index.css
+  - index.js
+  - logo.svg
 
 # Summary
 
