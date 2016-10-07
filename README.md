@@ -8,7 +8,6 @@
 
 1. Scaffold a `create-react-app` application
 1. Understand how `create-react-app` treats JavaScript, dependencies, CSS, and assets
-1. Establish a folder structure and refactor App.js
 
 # ReHacked
 
@@ -53,46 +52,12 @@ In the root of this repo, run a shell and execute the following commands
 1. Verify the error from ESLint and the page
 1. Remove the code from the prior step and save.  Ensure the app reloads is now okay.
 
-## Goal 3: Establish a folder structure and refactor App.js
-
-### Explanation
-
-![This is not Nam](https://cdn.meme.am/instances/66620351.jpg)
-
-* For smaller applications, the initial folder structure of `create-react-app` is fine
-* However, as your app grows in size and perhaps takes on new team members, you'll want to establish good patterns
-* A consistent folder structure is a good first step in maintaining consistency
-
-### Instructions
-
-1. In a shell, stop the running webserver by pressing Control + C
-1. In a shell at the root of the project, execute `cd src`
-1. Execute `mkdir containers`
-1. Execute `mkdir components`
-1. Execute `mkdir common`
-1. Execute `cd common`
-1. Execute `mkdir services`
-1. Your folder structure should now resemble the following:
-
-- src
-  - common
-    - services
-  - components
-  - containers
-  - App.js
-  - App.test.js
-  - App.css
-  - index.css
-  - index.js
-  - logo.svg
-
 # Summary
 
 In this section, we have accomplished the following:
 
 * Scaffolded a basic app using CRA
 * Verified the build system's functionality
-* Established a rudimentary folder structure for development
 
 
 [Back to Initial](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/initial) || [Continue to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-2)
