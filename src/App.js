@@ -8,16 +8,41 @@ class App extends Component {
 
     this.state = {
       firstName: '',
-      lastName: ''
+      lastName: '',
+      hipsterIpsumText: ''
     };
 
     this.onTextChange = this.onTextChange.bind(this);
+    this.hipsterIpsum = this.hipsterIpsum.bind(this);
+    this.onHipsterIpsumChange = this.onHipsterIpsumChange.bind(this);
   }
 
   onTextChange(event) {
     let state = Object.assign({}, this.state);
     state[event.target.id] = event.target.value;
     this.setState(state);
+  }
+
+  onHipsterIpsumChange(payload) {
+    this.setState({
+      hipsterIpsumText: {__html: payload.text}
+    });
+  }
+
+  hipsterIpsum() {
+    const onHipsterIpsumChange = this.onHipsterIpsumChange;
+    let options = {
+      method: 'GET'
+    };
+
+    fetch('http://hipsterjesus.com/api', options)
+      .then(response => response.json())
+      .then(payload => {
+        onHipsterIpsumChange(payload);
+      })
+      .catch(error => {
+        console.log('OH NOES ' + JSON.stringify(error));
+      })
   }
 
   render() {
@@ -41,6 +66,15 @@ class App extends Component {
         <div>
           <label htmlFor="lastName">Last Name: </label>
           <input id="lastName" type="text" value={this.state.lastName} onChange={this.onTextChange} />
+        </div>
+        {this.state.hipsterIpsumText &&
+        <div>
+          <h3>Hipster Ipsum Time</h3>
+          <div dangerouslySetInnerHTML={this.state.hipsterIpsumText}></div>
+        </div>
+        }
+        <div>
+          <button onClick={this.hipsterIpsum}>Get Hipster Ipsum</button>
         </div>
       </div>
     );
