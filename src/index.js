@@ -14,7 +14,6 @@ let router =
       <Route path="hipster_ipsum" component={HipsterIpsum} />
       <Route path="*" component={NoMatch} />
     </Route>
-
   </Router>;
 
 ReactDOM.render(
