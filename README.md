@@ -48,4 +48,4 @@ TODO: Summary for Step 2
 * 
 
 
-[Back to Initial](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1) || [Continue to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
+[Back to Step 1](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1) || [Continue to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
