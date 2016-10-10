@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import NameForm from './NameForm';
-import HipsterIpsum from './HipsterIpsum';
-import NoMatch from './NoMatch';
-import './index.css';
+import App from './components/App';
+import NameForm from './containers/NameForm';
+import HipsterIpsum from './containers/HipsterIpsum';
+import NoMatch from './components/NoMatch';
+import './common/assets/index.css';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 let router =

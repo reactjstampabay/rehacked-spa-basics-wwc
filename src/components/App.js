@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import wwcLogo from './wwcLogo.jpg';
-import './App.css';
+import wwcLogo from '../common/assets/wwcLogo.jpg';
+import '../common/assets/App.css';
 
 class App extends Component {
   render() {

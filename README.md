@@ -26,7 +26,6 @@
 1. Execute `mkdir components`
 1. Execute `mkdir containers`
 1. Execute `cd common`
-1. Execute `mkdir services`
 1. Execute `mkdir assets`
 1. Move `HipsterIpsum.js` and `NameForm.js` to the `containers` folder
 1. Move `App.js`, `App.test.js`, and `NoMatch.js` to the `components` folder
