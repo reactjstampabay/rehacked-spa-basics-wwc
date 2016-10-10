@@ -16,7 +16,7 @@ Thanks to the `create-react-app` scaffolder by Facebook, beginners to the React 
 1. Install [git](https://git-scm.com/downloads)
 1. Install [Node Version Manager](https://github.com/creationix/nvm) ([Windows NVM](https://github.com/coreybutler/nvm-windows))
 1. In a shell, install the latest version of Node by running `nvm install stable` (macOS/Linux) or `nvm install latest`
-1. In a shell, install `create-react-app` by running `npm install -g create-react-app`
+1. In a shell, install `create-react-app` by running `npm install -g create-react-app firebase-tools`
 1. Fork `https://github.com/reactjstampabay/rehacked-spa-basics-wwc` to your personal GitHub
 1. In a shell, execute `git clone https://github.com/[your GH username]/rehacked-spa-basics-wwc.git`
 1. In a shell, execute `git checkout initial`
