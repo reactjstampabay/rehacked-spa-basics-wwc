@@ -41,9 +41,9 @@ In the root of this repo, run a shell and execute the following commands
 1. Browse to `http://localhost:9000`
 1. In the source code, modify `/src/App.js` and change the text from "Welcome to React" to "Welcome to Women Who Code Tampa"
 1. Verify that the browser automatically reloaded
-1. [Save this image](http://TODO/logo/of/WWDC) to `/src`
-1. At the top of `/src/App.js`, add `import wwdcLogo from './wwdc_logo.png`
-1. In line 10 of `/src/App.js`, replace `{logo}` with `{wwdcLogo}`
+1. [Save this image](https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/b/9/0/9/global_431687369.jpeg) to `/src` as `wwcLogo.jpg`
+1. At the top of `/src/App.js`, add `import wwcLogo from './wwcLogo.jpg`
+1. In line 10 of `/src/App.js`, replace `{logo}` with `{wwcLogo}`
 1. Verify that the browser automatically reloaded with the new image
 1. Open `/src/App.css`.  Change the `color` of the `App-header` class to `red` and save
 1. Verify that the browser automatically reloaded with the new style
