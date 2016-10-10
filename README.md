@@ -47,8 +47,8 @@ ReactDOM.render(
 
 ### Instructions
 
-1. Let's create three new components: `NameForm.js`, `HipsterIpsum.js`, and `NoMatch.js`
-2. `NameForm.js` should be implemented as below
+- Let's create three new components: `NameForm.js`, `HipsterIpsum.js`, and `NoMatch.js`
+- `NameForm.js` should be implemented as below
 
 ```javascript
 import React from 'react';
@@ -93,7 +93,7 @@ export default class NameForm extends React.Component {
 }
 ```
 
-3. `HipsterIpsum.js` should be implemented as below
+- `HipsterIpsum.js` should be implemented as below
 
 ```javascript
 import React from 'react';
@@ -153,7 +153,7 @@ export default class HipsterIpsum extends React.Component {
 }
 ```
 
-4. `NoMatch.js` should be implemented as below
+- `NoMatch.js` should be implemented as below
 
 ```javascript
 import React from 'react';
@@ -171,7 +171,7 @@ export default class NoMatch extends React.Component {
 }
 ```
 
-4. Refactor `App.js` to be implemented as below
+- Refactor `App.js` to be implemented as below
 
 ```javascript
 import React, { Component } from 'react';
@@ -197,7 +197,7 @@ class App extends Component {
 export default App;
 ```
 
-5. Refactor `index.js` to be implemented as below
+- Refactor `index.js` to be implemented as below
 
 ```javascript
 import React from 'react';
@@ -224,8 +224,8 @@ ReactDOM.render(
 );
 ```
 
-6. Once the application auto-refreshes, ensure that you can now browse to `http://localhost:3000` which will show `NameForm.js`
-7. Also check that you can browse to `http://localhost:3000/hipster_ipsum` which will show `HipsterIpsum.js`
-8. Finally, try navigating to any route that's not `/hipster_ipsum`, and you should now see the contents of `NoMatch.js`
+- Once the application auto-refreshes, ensure that you can now browse to `http://localhost:3000` which will show `NameForm.js`
+- Also check that you can browse to `http://localhost:3000/hipster_ipsum` which will show `HipsterIpsum.js`
+- Finally, try navigating to any route that's not `/hipster_ipsum`, and you should now see the contents of `NoMatch.js`
 
 [Back to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-2) || [Continue to Step 4](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-4)
