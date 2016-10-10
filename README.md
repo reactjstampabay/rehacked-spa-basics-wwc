@@ -12,6 +12,7 @@ Thanks to the `create-react-app` scaffolder by Facebook, beginners to the React 
 ## Preqrequisites
 
 1. Signup for a [GitHub](https://github.com) account
+1. Signup for a [Firebase](https://firebase.google.com) account
 1. Install [git](https://git-scm.com/downloads)
 1. Install [Node Version Manager](https://github.com/creationix/nvm) ([Windows NVM](https://github.com/coreybutler/nvm-windows))
 1. In a shell, install the latest version of Node by running `nvm install stable` (macOS/Linux) or `nvm install latest`
