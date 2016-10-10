@@ -20,3 +20,5 @@ Thanks to the `create-react-app` scaffolder by Facebook, beginners to the React 
 1. Fork `https://github.com/reactjstampabay/rehacked-spa-basics-wwc` to your personal GitHub
 1. In a shell, execute `git clone https://github.com/[your GH username]/rehacked-spa-basics-wwc.git`
 1. In a shell, execute `git checkout initial`
+
+[Continue to Step 1](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1)
