@@ -192,4 +192,4 @@ In Step 2, we have accomplished the following
 * Utilized `fetch` to communicate with Web API's
 
 
-[Back to Step 1](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1) || [Continue to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
+[Back to Step 1](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1) || [Continue to Step 3](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
