@@ -24,7 +24,7 @@ export default class NameForm extends React.Component {
         <p className="App-intro">
           Welcome to React
           {(this.state.firstName || this.state.lastName) &&
-          'Welcome, ' + this.state.firstName + ' ' + this.state.lastName}
+          ', ' + this.state.firstName + ' ' + this.state.lastName}
         </p>
         <div>
           <label htmlFor="firstName">First Name: </label>
