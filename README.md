@@ -24,7 +24,62 @@
 
 ### Instructions
 
-1. 
+* Add the following function to `src/App.js`
+
+```javascript
+onTextChange(event) {
+    let state = Object.assign({}, this.state);
+    state[event.target.id] = event.target.value;
+    this.setState(state);
+  }
+```
+
+* Add the following code to `src/App.js` right underneath the class declaration
+
+```javascript
+ constructor(props) {
+     super(props);
+ 
+     this.state = {
+       firstName: '',
+       lastName: ''
+     };
+ 
+     this.onTextChange = this.onTextChange.bind(this);
+   }
+```
+
+* In `src/App.js`, modify the `render` function like the following
+
+```javascript
+render() {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <img src={wwcLogo} className="App-logo" alt="logo" />
+          <h2>
+            Welcome to React
+            {(this.state.firstName || this.state.lastName) &&
+            ', ' + this.state.firstName + ' ' + this.state.lastName}
+          </h2>
+        </div>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <div>
+          <label htmlFor="firstName">First Name: </label>
+          <input id="firstName" type="text" value={this.state.firstName} onChange={this.onTextChange} />
+        </div>
+        <div>
+          <label htmlFor="lastName">Last Name: </label>
+          <input id="lastName" type="text" value={this.state.lastName} onChange={this.onTextChange} />
+        </div>
+      </div>
+    );
+  }
+```
+
+* Once the app reloads, try typing in the newly established firstName and lastName input boxes and watch the UI change state
 
 ## Goal 2: Understand How React Communicates w/ Web API's
 
@@ -39,13 +94,102 @@
 
 ### Instructions
 
-1. 
+* Add this function to `src/App.js`
+
+```javascript
+onHipsterIpsumChange(payload) {
+    this.setState({
+      hipsterIpsumText: {__html: payload.text}
+    });
+  }
+```
+
+* Now, add this function which utilizes `fetch` to `src/App.js`
+
+```javascript
+hipsterIpsum() {
+    const onHipsterIpsumChange = this.onHipsterIpsumChange;
+    let options = {
+      method: 'GET'
+    };
+
+    fetch('http://hipsterjesus.com/api', options)
+      .then(response => response.json())
+      .then(payload => {
+        onHipsterIpsumChange(payload);
+      })
+      .catch(error => {
+        console.log('OH NOES ' + JSON.stringify(error));
+      })
+  }
+```
+
+* Modify the `constructor` function we established in Goal 1 to resemble the following 
+
+```javascript
+constructor(props) {
+    super(props);
+
+    this.state = {
+      firstName: '',
+      lastName: '',
+      hipsterIpsumText: ''
+    };
+
+    this.onTextChange = this.onTextChange.bind(this);
+    this.hipsterIpsum = this.hipsterIpsum.bind(this);
+    this.onHipsterIpsumChange = this.onHipsterIpsumChange.bind(this);
+  }
+```
+
+* Modify the `render` function to resemble the following
+
+```javascript
+render() {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <img src={wwcLogo} className="App-logo" alt="logo" />
+          <h2>
+            Welcome to React
+            {(this.state.firstName || this.state.lastName) &&
+            ', ' + this.state.firstName + ' ' + this.state.lastName}
+          </h2>
+        </div>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <div>
+          <label htmlFor="firstName">First Name: </label>
+          <input id="firstName" type="text" value={this.state.firstName} onChange={this.onTextChange} />
+        </div>
+        <div>
+          <label htmlFor="lastName">Last Name: </label>
+          <input id="lastName" type="text" value={this.state.lastName} onChange={this.onTextChange} />
+        </div>
+        {this.state.hipsterIpsumText &&
+        <div>
+          <h3>Hipster Ipsum Time</h3>
+          <div dangerouslySetInnerHTML={this.state.hipsterIpsumText}></div>
+        </div>
+        }
+        <div>
+          <button onClick={this.hipsterIpsum}>Get Hipster Ipsum</button>
+        </div>
+      </div>
+    );
+  }
+```
+
+* Once the app reloads, click on the `Get Hipster Ipsum` button and ensure that some Hipster Ipsum comes through
 
 # Summary
 
-TODO: Summary for Step 2
+In Step 2, we have accomplished the following
 
-* 
+* Made our App stateful by using React's built-in state
+* Utilized event handlers to change the state of the app
+* Utilized `fetch` to communicate with Web API's
 
 
 [Back to Step 1](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1) || [Continue to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
