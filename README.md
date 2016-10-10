@@ -36,7 +36,7 @@ Please follow the branches in the order listed below
 
 [Start Here](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/initial)
 
-[Step 1: Scaffold a create-react-app and Understand the Build Process](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1)
-[Step 2: Understand React State, Lifecycle, and Web API Communication](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-2)
-[Step 3: Implement Client-side Routing and Break Up Functionality to Routes](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
-[Step 4: Thinking About Folder Structure and Deploying to Firebase Hosting](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-4)
+- [Step 1: Scaffold a create-react-app and Understand the Build Process](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-1)
+- [Step 2: Understand React State, Lifecycle, and Web API Communication](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-2)
+- [Step 3: Implement Client-side Routing and Break Up Functionality to Routes](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
+- [Step 4: Thinking About Folder Structure and Deploying to Firebase Hosting](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-4)
