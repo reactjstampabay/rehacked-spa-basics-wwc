@@ -228,4 +228,12 @@ ReactDOM.render(
 - Also check that you can browse to `http://localhost:3000/hipster_ipsum` which will show `HipsterIpsum.js`
 - Finally, try navigating to any route that's not `/hipster_ipsum`, and you should now see the contents of `NoMatch.js`
 
+# Summary
+
+In Step 3, we have accomplished the following
+
+* Installed `react-router`
+* Refactored our app to be split into routes with a shared layout
+* Implemented a "404" route
+
 [Back to Step 2](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-2) || [Continue to Step 4](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-4)
