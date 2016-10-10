@@ -34,7 +34,6 @@
 1. Modify `src/index.js` and point the references to the new folder locations for `App.js`, `HipsterIpsum.js`, `NameForm.js`, `NoMatch.js`, and `index.css`
 1. Modify `components/App.js` and point the references to `App.css` and `wwcLogo.jpg` to their new folder locations under `common/assets`
 
-
 ## Goal 2: Deploy Our App to Firebase
 
 ### Explanation
@@ -48,13 +47,21 @@
 
 1. Open a shell in the root of the app and type in `npm run build`
 1. If you haven't done so, sign up for a [Firebase account](https://firebase.google.com)
-
-### Instructions
+1. Login to the Firebase Console and create a new project
+1. Execute `firebase login` and enter your credentials
+1. Once logged in, type in `firebase init`
+1. Hit Spacebar on `Database` to uncheck the database option. We only want `Hosting`.  Press Enter.
+1. When prompted `What do you want to use as your public directory` type in `build` and press Enter
+1. When prompted `Configure as a single-page app (rewrite all urls to /index.html)?`, key in "y" and press Enter
+1. When prompted `File build/index.html already exists. Overwrite?`, key in "N" and press Enter
+1. When prompted `What Firebase project do you want to associate as default?`, select the project you established above and press Enter
+1. When back in the terminal type in `firebase deploy`
 
 # Summary
 
 In Step 4, we have accomplished the following
 
-* 
+* Refactored our folder structure to follow an understood pattern for our project
+* Created a Firebase Hosting account and deployed our app
 
 [Back to Step 3](https://github.com/reactjstampabay/rehacked-spa-basics-wwc/tree/step-3)
