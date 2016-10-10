@@ -5,6 +5,8 @@
 
 Welcome to **ReHacked: SPA Basics @ Women Who Code Tampa**! In this lab we will go through the basics of a standard React application with help from [create-react-app (CRA)](https://github.com/facebookincubator/create-react-app)
 
+This `master` branch represents a finished solution set.
+
 By the end of this lab, you will have:
 
 * Scaffolded your app using `create-react-app`
