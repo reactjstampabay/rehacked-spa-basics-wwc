@@ -11,6 +11,8 @@ Thanks to the `create-react-app` scaffolder by Facebook, beginners to the React 
 
 ## Preqrequisites
 
+**Note** You will need an active Internet connection to complete this lab
+
 1. Signup for a [GitHub](https://github.com) account
 1. Signup for a [Firebase](https://firebase.google.com) account
 1. Install [git](https://git-scm.com/downloads)
