@@ -22,7 +22,6 @@ This `master` branch represents a completed solution set for the lab.  We have s
 # Dependencies and Suggested Tools
 ## Build Tools
 - [Node Version Manager](https://github.com/creationix/nvm)
-- Node 4.5.0 (using `nvm install 4.5.0`)
 
 ## JavaScript
 - [Atom](https://atom.io/), [WebStorm](https://www.jetbrains.com/webstorm/), or [IntelliJ](https://www.jetbrains.com/idea/)
