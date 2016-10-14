@@ -31,7 +31,7 @@ In the root of this repo, run a shell and execute the following commands
 
 ### Explanation
 
-* Because it encapsulates Webpack, Babel, and PostCSS, we have to understnd how `create-react-app` builds your application
+* Because it encapsulates Webpack, Babel, and PostCSS, we have to understand how `create-react-app` builds your application
 * By default, you get served an autoreloading webserver which will reload itself on JavaScript, CSS, or asset changes
 
 
